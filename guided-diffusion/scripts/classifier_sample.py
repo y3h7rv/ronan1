@@ -5,7 +5,8 @@ process towards more realistic images.
 
 import argparse
 import os
-
+import sys
+sys.path.append('/root/guided-diffusion')#到guided_diffusion包的路径
 import numpy as np
 import torch as th
 import torch.distributed as dist
