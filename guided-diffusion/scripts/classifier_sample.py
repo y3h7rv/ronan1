@@ -12,6 +12,7 @@ import torch as th
 import torch.distributed as dist
 import torch.nn.functional as F
 import torchvision
+from PIL import Image
 
 from guided_diffusion import dist_util, logger
 from guided_diffusion.script_util import (
