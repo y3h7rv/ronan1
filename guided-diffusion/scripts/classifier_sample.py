@@ -2,7 +2,7 @@
 Like image_sample.py, but use a noisy image classifier to guide the sampling
 process towards more realistic images.
 """
-
+import cv2
 import argparse
 import os
 import sys
