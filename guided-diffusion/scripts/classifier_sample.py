@@ -89,7 +89,7 @@ def main():
     
     
     
-    for i in range(100):    #more steps mean better reconstruction result!!!!!!!  ---by yuhury  240310
+    for i in range(100):    #more steps mean better reconstruction result!!!!!!!_____---by yuhury_____240310
     #重建
         print("============step",i) 
         logger.log("sampling...")
